@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <script
+    src="https://kit.fontawesome.com/d5282c50fa.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<header>
+  <h1>Hi, I'm Iwan.</h1>
+  <h2>🌍 &nbsp;London &nbsp;&nbsp;&nbsp; 👨‍💻 &nbsp;Software Engineer</h2>
+  <div class="container">
+    <a id="about" href="#0">
+      <i class="fas fa-address-card"></i>
+    </a>
+    &nbsp; &nbsp;
+    <a href="https://github.com/iwantm">
+      <i class="fab fa-github"></i>
+    </a>
+    &nbsp; &nbsp;
+    <a href="https://www.linkedin.com/in/iwan-moreton-964194152">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    &nbsp; &nbsp;
+    <a href="https://www.instagram.com/iwantmoreton/">
+      <i class="fab fa-instagram"></i>
+    </a>
+    &nbsp; &nbsp;
+    <a href="https://twitter.com/IwanMoreton">
+      <i class="fab fa-twitter"></i>
+    </a>
+    &nbsp; &nbsp;
+    <a href="mailto:website@iwantm.me">
+      <i class="fas fa-envelope"></i>
+    </a>
+    &nbsp; &nbsp;
+    <a href="IwanMoreton-CV.pdf">
+      <i class="fas fa-file"></i>
+      <p class="icon">cv</p>
+    </a>
+  </div>
+</header>
+<body>
+  <div id="aboutme" class="container-hidden">
+    <img
+      class="image"
+      src="https://eu.ui-avatars.com/api/?name=Iwan+Moreton&size=700"
+    />
+    <h3 class="text">
+      I'm a recently graduated Software Engineer based in London, looking to
+      make my way into the industry. I've always enjoyed making things and I am
+      looking forward to turning this into my career.
+    </h3>
+  </div>
+</body>
+<script>
+  $("#about").on("click", function () {
+    $("#aboutme").toggleClass("show");
+  });
+</script>
