@@ -47,11 +47,11 @@ a {
   text-decoration: none;
 }
 
-.icon{
-    font-size: 15px;
-    margin-top: -25px;
-    margin-left: 2px;
-    color: white;
+.icon {
+  font-size: 15px;
+  margin-top: -25px;
+  margin-left: 2px;
+  color: white;
 }
 
 .container {
@@ -89,16 +89,3 @@ a {
   border-radius: 50%;
 }
 
-/* @media (max-width: 500px) {
-    h1 {
-        font-size: 40px;
-        
-      }
-      h2{
-          font-size: 11px;
-      }
-      a{
-          font-size: 12px;
-          padding-right: -50%;
-      }
-} */
